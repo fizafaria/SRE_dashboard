@@ -219,21 +219,21 @@ Admin may remove a server from the **in-memory** app inventory. Removal must not
 
 ## 9. Acceptance Criteria
 
-- [ ] Unauthenticated access is blocked
-- [ ] Login works with `admin` + hashed password
-- [ ] Admin can add a server with name, hostname/IP, SSH user, and SSH port
-- [ ] Server inventory is held in memory for the demo
-- [ ] Overview shows servers as cards with name, IP/hostname, status, CPU, memory, and network status
-- [ ] Health uses green / amber / red indicators; CPU and memory use progress bars or gauges
-- [ ] Detail view shows CPU, memory, network, and listening ports
-- [ ] Metrics auto-refresh and a manual Refresh button works
-- [ ] Last refreshed time is visible
-- [ ] Search/filter by name/IP and by health status works
-- [ ] Summary counts and online/offline badges are present
-- [ ] Empty and unreachable-server states are clear
-- [ ] Metric collection uses SSH from Flask
-- [ ] App never modifies monitored servers
-- [ ] App runs locally for demo use
+- [x] Unauthenticated access is blocked
+- [x] Login works with `admin` + hashed password
+- [x] Admin can add a server with name, hostname/IP, SSH user, and SSH port
+- [x] Server inventory is held in memory for the demo
+- [x] Overview shows servers as cards with name, IP/hostname, status, CPU, memory, and network status
+- [x] Health uses green / amber / red indicators; CPU and memory use progress bars or gauges
+- [x] Detail view shows CPU, memory, network, and listening ports
+- [x] Metrics auto-refresh and a manual Refresh button works
+- [x] Last refreshed time is visible
+- [x] Search/filter by name/IP and by health status works
+- [x] Summary counts and online/offline badges are present
+- [x] Empty and unreachable-server states are clear
+- [x] Metric collection uses SSH from Flask
+- [x] App never modifies monitored servers
+- [x] App runs locally for demo use
 
 ---
 
